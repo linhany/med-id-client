@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Typography from '@material-ui/core/Typography';
+import { withStyles } from '@mui/material/styles';
+import AppBar from '@mui/material/AppBar';
+import Typography from '@mui/material/Typography';
 
 import './Patient.css';
 import { InfoBlock, AppointmentBlock, ChiefComplaintBlock, DiagnosisBlock } from './Blocks';
@@ -15,11 +15,11 @@ import { getPatientMedicalRecord } from '../../../actions/getPatientMedicalRecor
 import { postPatientMedicalRecord } from '../../../actions/postPatientMedicalRecord';
 
 import { StyledTitle, StyledContent } from '../../common/StyledText/StyledText';
-import Avatar from '@material-ui/core/Avatar';
+import Avatar from '@mui/material/Avatar';
 import patientAvatar from '../../../assets/portrait/cecilia.jpg';
-import Button from '@material-ui/core/Button';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
+import Button from '@mui/material/Button';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
 
 function TabContainer(props) {
     return (

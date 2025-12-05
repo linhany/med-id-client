@@ -3,10 +3,10 @@ import React, {Component} from 'react';
 import './Patient.css';
 import { StyledTitle, StyledContent } from '../../common/StyledText/StyledText';
 
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import Divider from '@material-ui/core/Divider';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
+import Divider from '@mui/material/Divider';
 
 export const ListItemSecondaryField = (doctor, dateTime) => {
     return (
