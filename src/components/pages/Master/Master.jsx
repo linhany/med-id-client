@@ -15,7 +15,7 @@ import groupIcon from '../../../assets/icons/group.png';
 
 //Material-UI App bar
 import 'typeface-roboto'
-import { withStyles } from '@mui/material/styles';
+import { withStyles } from '@mui/styles';
 import Drawer from '@mui/material/Drawer';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';

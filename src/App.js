@@ -2,10 +2,14 @@ import React, { Component } from 'react';
 
 import { Provider } from 'react-redux';
 import store from './store';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+
+const theme = createTheme();
 
 //Routes';
 import {
     BrowserRouter as Router,
+    Routes,
     Route,
     Link
 } from 'react-router-dom';
@@ -37,18 +41,21 @@ class App extends Component {
   render() {
     return (
         <Provider store={store}>
-            <Router>
-                <Master>
-                    {routes.map((route) => (
-                        <Route
-                            key={route.path}
-                            path={route.path}
-                            exact={route.exact}
-                            component={route.main}
-                            />
-                    ))}
-                </Master>
-            </Router>
+            <ThemeProvider theme={theme}>
+                <Router>
+                    <Master>
+                        <Routes>
+                            {routes.map((route) => (
+                                <Route
+                                    key={route.path}
+                                    path={route.path}
+                                    element={<route.main />}
+                                    />
+                            ))}
+                        </Routes>
+                    </Master>
+                </Router>
+            </ThemeProvider>
         </Provider>
     );
   }
