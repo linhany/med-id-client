@@ -5,7 +5,7 @@ import './Patient.css';
 
 import { Link } from 'react-router-dom'
 import { StyledTitle, StyledContent } from '../../common/StyledText/StyledText';
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button';
 import Textarea from "react-textarea-autosize";
 
 class DiagnosisFormContainer extends Component {

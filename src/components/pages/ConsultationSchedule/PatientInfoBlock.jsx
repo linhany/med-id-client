@@ -9,7 +9,7 @@ import { formatTime } from '../../common/formatTime';
 import { StyledTitle, StyledContent } from '../../common/StyledText/StyledText';
 
 import doctorLogo from '../../../assets/images/person1.jpg';
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button';
 
 import benjaminLogo from '../../../assets/portrait/Benjamin.jpg';
 import brandonLogo from '../../../assets/portrait/Brandon.jpg';
@@ -22,7 +22,7 @@ import nathanLogo from '../../../assets/portrait/Nathan.jpg';
 import oliverLogo from '../../../assets/portrait/Oliver.jpg';
 import oscarLogo from '../../../assets/portrait/Oscar.jpg';
 import sarahLogo from '../../../assets/portrait/Sarah.jpg';
-import Avatar from '@material-ui/core/Avatar';
+import Avatar from '@mui/material/Avatar';
 
 
 class PatientInfoBlock extends Component {

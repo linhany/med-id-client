@@ -14,10 +14,10 @@ import getDoctorInfo from './doctorInfo.json'
 import { fetchPosts } from '../../../actions/postActions';
 import { getDoctorAppointments } from '../../../actions/getDoctorAppointments';
 
-import Avatar from '@material-ui/core/Avatar';
+import Avatar from '@mui/material/Avatar';
 import doctor1Logo from '../../../assets/portrait/1.jpg';
 import doctor2Logo from '../../../assets/portrait/2.jpg';
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button';
 
 import ceciliaLogo from '../../../assets/portrait/cecilia.jpg';
 import jackyLogo from '../../../assets/portrait/Jacky.jpg';
